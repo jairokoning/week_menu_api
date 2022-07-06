@@ -1,0 +1,15 @@
+@startuml "week_menu_usecase"
+title Week Menu - UseCase Diagram \n
+skinparam actorStyle awesome
+
+actor User
+actor App
+usecase "Cadastrar\ncardápio"
+usecase "Listar\ncardápios"
+usecase "Mostrar\ncardápio"
+usecase "Alterar\ncardápio"
+usecase "Excluir\ncardápio"
+usecase "Adicionar\ncardápio do dia"
+usecase "Listar dias\nda semana"
+
+@enduml
