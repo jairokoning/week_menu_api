@@ -1,0 +1,16 @@
+@startuml "week_menu_entities"
+title Week Menu - Entities \n
+
+entity Menu {
+  id : uuid
+  name : string
+  description : string
+}
+
+entity WeekMenu {
+  id : uuid
+  week_day : string
+  menu_id : uuid
+}
+
+@enduml
